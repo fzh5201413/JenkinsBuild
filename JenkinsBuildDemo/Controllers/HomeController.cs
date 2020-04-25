@@ -9,7 +9,7 @@ using JenkinsBuildDemo.Models;
 
 namespace JenkinsBuildDemo.Controllers
 {
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

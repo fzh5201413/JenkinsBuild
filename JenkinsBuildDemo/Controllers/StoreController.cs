@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace JenkinsBuildDemo.Controllers
 {
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class StoreController : Controller
     {
         public IActionResult Index()
